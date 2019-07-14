@@ -22,6 +22,7 @@ URL = "https://www.imdb.com/find?q=" + movie_title + "&s=tt&ref_=fn_al_tt_mr"
 # Will be used to get release dates per title
 imdb_home = "https://www.imdb.com"
 
+#Collins was  here
 html_text = urlopen(URL)
 soup = BeautifulSoup(html_text, "lxml")
 
